@@ -1,4 +1,4 @@
-from example import add
+from example import add, subtract
 
 
 def test_ex_add():
@@ -7,5 +7,5 @@ def test_ex_add():
 
 
 def test_ex_sub():
-    assert add(4, 3) == 1
-    assert add(2, 8) == -6
+    assert subtract(4, 3) == 1
+    assert subtract(2, 8) == -6
